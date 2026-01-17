@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoLoop | Sustainable Waste Management</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+
+    <nav class="animate-slide-down">
+        <div class="container nav-container">
+            <a href="#" class="logo">♻️ EcoLoop</a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#tracking">Live Map</a>
+                <a href="#tech">Technology</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate-fade-in">Making Recycling <br><span class="highlight">Simple & Rewarding</span></h1>
+            <p class="animate-fade-in delay-1">EcoLoop connects you with local waste collectors, tracks your recycling impact, and rewards you for saving the planet.</p>
+            <img class="hero-image animate-scale-in delay-2" src="assets/Images/maindashboard.png" alt="Future of Recycling">
+            <br>
+            <a href="#tracking" class="btn animate-bounce-in delay-3">Track Your Truck</a>
+        </div>
+    </section>
+
+    <section id="tracking" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Live Truck Tracking </h2>
+            
+            <div class="tracking-wrapper animate-fade-in delay-1">
+                <div class="tracking-overlay">
+                    <span class="status-badge">● LIVE TRACKING</span>
+                    <div class="driver-info">
+                        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200&auto=format&fit=crop" class="driver-img" alt="Driver">
+                        <div>
+                            <h4>Kamal Perera</h4>
+                            <small style="color: #bbb;">Vehicle: WP-CA-4521</small>
+                        </div>
+                    </div>
+                    <div class="tracking-stats">
+                        <div class="stat-item">
+                            <p>ETA</p>
+                            <h3 style="color: var(--primary-green);">5 Mins</h3>
+                        </div>
+                        <div class="stat-item">
+                            <p>Distance</p>
+                            <h3>1.2 km</h3>
+                        </div>
+                        <div class="stat-item">
+                            <p>Load</p>
+                            <h3>80%</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Why EcoLoop?</h2>
+            <div class="grid">
+                <div class="card animate-slide-up delay-1">
+                    <img src="assets/Images/earn.jpg" alt="Rewards">
+                    <h3>🏆 Earn Rewards</h3>
+                    <p>Get points for every kilogram of waste you recycle and redeem them for exciting offers.</p>
+                </div>
+                <div class="card animate-slide-up delay-2">
+                    <img src="assets/Images/dashboard.png" alt="Dashboard">
+                    <h3>📊 Impact Dashboard</h3>
+                    <p>Visualize your contribution to the environment with detailed monthly recycling reports.</p>
+                </div>
+
+                <div class="card animate-slide-up delay-3">
+                    <img src="assets/Images/Real-time Tracking.jpg" alt="Tracking">
+                    <h3>📍 Real-time Tracking</h3>
+                    <p>Track waste collection trucks in real-time and schedule pickups conveniently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Built With</h2>
+            <div class="tech-marquee">
+                <div class="tech-track">
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="24"> HTML5</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="24"> CSS3</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="24"> JavaScript</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="24" style="filter: invert(1);"> GitHub Actions</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" width="24" style="filter: invert(1);"> Vercel</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="24"> Git</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="24"> HTML5</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="24"> CSS3</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="24"> JavaScript</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="24" style="filter: invert(1);"> GitHub Actions</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" width="24" style="filter: invert(1);"> Vercel</div>
+                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="24"> Git</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Our Team</h2>
+            <div class="grid">
+                <div class="card team-member animate-slide-up delay-1">
+                    <img src= "assets/Images/chamod.png" alt="O.P.C Akalanka">
+                    <h4>O.P.C Akalanka </h4>
+                    <p>ID: ITBIN-2313-0007 </p>
+                    <p class="highlight">Full-Stack Developer</p>
+                </div>
+                <div class="card team-member animate-slide-up delay-2">
+                    <img src= "assets/Images/shani.jpg" alt="K.A. Shani Randika">
+                    <h4>K.A. Shani Randika</h4>
+                    <p>ID: ITBIN-2313-0089</p>
+                    <p class="highlight">DevOps Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Get in Touch</h2>
+            <form class="contact-form animate-scale-in delay-1">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="animate-fade-in">
+        <div class="container">
+            <p>&copy; 2026 EcoLoop Project. All rights reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 10px;">Assignment for Advanced Git & DevOps</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
