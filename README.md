@@ -1,23 +1,23 @@
 # ♻️ EcoLoop – Sustainable Waste Management System
 
-![CI Pipeline](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/ci.yml/badge.svg)
-![Deploy to Production](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/deploy.yml/badge.svg)
+ 
 
-EcoLoop is a smart waste management web application that connects households with local waste collectors. The system supports real-time truck tracking, a recycling rewards system, and an impact dashboard to promote environmental sustainability.
+EcoLoop is a web-based sustainable waste management system designed to connect households with local waste collectors. The system focuses on improving recycling habits by providing real-time truck tracking, a rewards mechanism, and a simple impact dashboard.
 
 ---
 
-## 📌 Project Information
+## 📌 Project Overview
 
-**Module:** Advanced Git & DevOps
-**Project Type:** Group Assignment
-**Year:** 2026
+* **Module:** Advanced Git & DevOps
+* **Project Type:** Group Assignment
+* **Year:** 2026
+* **Repository Type:** Frontend Web Application (UI)
 
 ---
 
 ## 👥 Group Members
 
-**O.P.C Akalanka (Chamod)**
+**O.P.C Akalanka**
 Student ID: ITBIN-2313-0007
 Role: Full-Stack Developer
 
@@ -40,48 +40,50 @@ Role: DevOps Engineer
 * **Map Integration:** Leaflet.js with OpenStreetMap
 * **CI/CD:** GitHub Actions
 * **Deployment:** Vercel
-* **Version Control:** Git and GitHub
+* **Version Control:** Git & GitHub
 
 ---
 
 ## ✨ Key Features
 
-* **Real-time Truck Tracking** – View waste collection trucks on an interactive map
-* **Rewards System** – Earn points for recycling activities
-* **Impact Dashboard** – Track monthly recycling contributions
-* **Responsive Design** – Works smoothly on mobile and desktop devices
+* **Real-time Truck Tracking** – Displays waste collection trucks on an interactive map
+* **Rewards System** – Users earn points for recycling activities
+* **Impact Dashboard** – Shows monthly recycling contribution statistics
+* **Responsive Design** – Optimized for both mobile and desktop screens
 
 ---
 
 ## 🌿 Branching Strategy
 
+This project follows a simple Git branching strategy to support collaborative development.
+
 * **main** – Production-ready branch (protected)
-* **develop** – Integration branch
-* **feature/*** – Feature development branches
+* **develop** – Integration and testing branch
+* **feature/*** – Individual feature development branches
 
 **Example Feature Branches:**
 
 * feature/ui-design
 * feature/ci-cd-setup
-* feature/readme-docs
+* feature/readme-update
 
 ---
 
 ## 🧑‍💻 Individual Contributions
 
-### O.P.C Akalanka (Chamod) – Full-Stack Developer
+### O.P.C Akalanka – Full-Stack Developer
 
-* Designed and implemented the full UI/UX (landing page and dashboard)
-* Integrated Leaflet.js map with custom truck icons and movement simulation
+* Designed and developed the complete UI/UX including landing page and dashboard
+* Integrated Leaflet.js map with custom truck icons and simulated movement
 * Implemented JavaScript logic for animations and user interactions
-* Created the initial CI workflow using GitHub Actions
+* Created the initial Continuous Integration (CI) workflow using GitHub Actions
 
 ### K.A. Shani Randika – DevOps Engineer
 
 * Configured repository settings and branch protection rules
 * Managed CI/CD workflows and Vercel deployment
-* Maintained project documentation
-* Reviewed and approved pull requests before merging to the develop branch
+* Maintained and updated project documentation
+* Reviewed and approved pull requests before merging into the develop branch
 
 ---
 
@@ -96,16 +98,16 @@ Role: DevOps Engineer
 ### Installation Steps
 
 ```bash
-git clone https://github.com/chamod1000/Advanced-Git-Dev-ops-EchoLoop-.git
-cd Advanced-Git-Dev-ops-EchoLoop-
+git clone https://github.com/chamod1000/EchoLoopWebUI.git
+cd EchoLoopWebUI
 npm install
 ```
 
 ### Run the Application
 
-* Open `index.html` directly in a browser
+* Open `index.html` directly in a web browser
   **OR**
-* Use **Live Server** in VS Code
+* Use **Live Server** extension in VS Code
 
 ---
 
@@ -113,13 +115,22 @@ npm install
 
 ### Continuous Integration (CI)
 
-* Runs on every push and pull request
-* Installs dependencies and checks the build
+* Triggered on every push and pull request
+* Installs dependencies and validates the build
 
 ### Continuous Deployment (CD)
 
-* Automatically deploys to Vercel
+* Automatically deploys the application to **Vercel**
 * Triggered when changes are merged into the `main` branch
+
+---
+
+## 📚 Learning Outcomes
+
+* Practical use of Git branching strategies
+* Hands-on experience with GitHub Actions for CI/CD
+* Automated deployment using Vercel
+* Team collaboration using pull requests and reviews
 
 ---
 
