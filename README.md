@@ -1,8 +1,5 @@
 # ♻️ EcoLoop – Sustainable Waste Management System
 
-![CI Pipeline](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/ci.yml/badge.svg)
-![Deploy to Production](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/deploy.yml/badge.svg)
-
 EcoLoop is a smart waste management web application that connects households with local waste collectors. The system supports real-time truck tracking, a recycling rewards system, and an impact dashboard to promote environmental sustainability.
 
 ---
@@ -18,12 +15,12 @@ EcoLoop is a smart waste management web application that connects households wit
 ## 👥 Group Members
 
 **O.P.C Akalanka (Chamod)**
-Student ID: ITBIN-2313-0007
-Role: Full-Stack Developer
+**Student ID: ITBIN-2313-0007**
+**Role: Full-Stack Developer**
 
 **K.A. Shani Randika**
-Student ID: ITBIN-2313-0089
-Role: DevOps Engineer
+**Student ID: ITBIN-2313-0089**
+**Role: DevOps Engineer**
 
 ---
 
@@ -69,7 +66,7 @@ Role: DevOps Engineer
 
 ## 🧑‍💻 Individual Contributions
 
-### O.P.C Akalanka (Chamod) – Full-Stack Developer
+### O.P.C Akalanka – Full-Stack Developer
 
 * Designed and implemented the full UI/UX (landing page and dashboard)
 * Integrated Leaflet.js map with custom truck icons and movement simulation
