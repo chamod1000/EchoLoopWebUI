@@ -27,7 +27,7 @@ EcoLoop is a smart waste management web application that connects households wit
 ## 🌍 Live Deployment
 
 **Live URL:**
-[https://advanced-git-dev-ops-echo-loop.vercel.app/](https://advanced-git-dev-ops-echo-loop.vercel.app/)
+[EchoLoopWebUi.vercel.app](https://echo-loop-web-ui.vercel.app/)
 
 ---
 
