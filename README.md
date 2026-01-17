@@ -14,13 +14,13 @@ EcoLoop is a smart waste management web application that connects households wit
 
 ## 👥 Group Members
 
-**O.P.C Akalanka (Chamod)**
-**Student ID: ITBIN-2313-0007**
-**Role: Full-Stack Developer**
+* **O.P.C Akalanka (Chamod)**
+* **Student ID: ITBIN-2313-0007**
+* **Role: Full-Stack Developer**
 
-**K.A. Shani Randika**
-**Student ID: ITBIN-2313-0089**
-**Role: DevOps Engineer**
+* **K.A. Shani Randika**
+* **Student ID: ITBIN-2313-0089**
+* **Role: DevOps Engineer**
 
 ---
 
