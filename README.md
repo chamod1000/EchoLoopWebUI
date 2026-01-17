@@ -1,126 +1,136 @@
-# ♻️ EcoLoop – Sustainable Waste Management System
+♻️ EcoLoop – Sustainable Waste Management System
 
-![CI Pipeline](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/ci.yml/badge.svg)
-![Deploy to Production](https://github.com/chamod1000/Advanced-Git-DevOps-EchoLoop-/actions/workflows/deploy.yml/badge.svg)
 
-EcoLoop is a smart waste management web application that connects households with local waste collectors. The system supports real-time truck tracking, a recycling rewards system, and an impact dashboard to promote environmental sustainability.
 
----
+EcoLoop is a web-based sustainable waste management system designed to connect households with local waste collectors. The system focuses on improving recycling habits by providing real-time truck tracking, a rewards mechanism, and a simple impact dashboard.
 
-## 📌 Project Information
+📌 Project Overview
 
-**Module:** Advanced Git & DevOps
-**Project Type:** Group Assignment
-**Year:** 2026
+Module: Advanced Git & DevOps
 
----
+Project Type: Group Assignment
 
-## 👥 Group Members
+Year: 2026
 
-**O.P.C Akalanka (Chamod)**
-Student ID: ITBIN-2313-0007
-Role: Full-Stack Developer
+Repository Type: Frontend Web Application (UI)
 
-**K.A. Shani Randika**
-Student ID: ITBIN-2313-0089
-Role: DevOps Engineer
+👥 Group Members
 
----
+O.P.C AkalankaStudent ID: ITBIN-2313-0007Role: Full-Stack Developer
 
-## 🌍 Live Deployment
+K.A. Shani RandikaStudent ID: ITBIN-2313-0089Role: DevOps Engineer
 
-**Live URL:**
-[https://advanced-git-dev-ops-echo-loop.vercel.app/](https://advanced-git-dev-ops-echo-loop.vercel.app/)
+🌍 Live Deployment
 
----
+Live URL:https://advanced-git-dev-ops-echo-loop.vercel.app/
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
-* **Frontend:** HTML5, CSS3, JavaScript (ES6)
-* **Map Integration:** Leaflet.js with OpenStreetMap
-* **CI/CD:** GitHub Actions
-* **Deployment:** Vercel
-* **Version Control:** Git and GitHub
+Frontend: HTML5, CSS3, JavaScript (ES6)
 
----
+Map Integration: Leaflet.js with OpenStreetMap
 
-## ✨ Key Features
+CI/CD: GitHub Actions
 
-* **Real-time Truck Tracking** – View waste collection trucks on an interactive map
-* **Rewards System** – Earn points for recycling activities
-* **Impact Dashboard** – Track monthly recycling contributions
-* **Responsive Design** – Works smoothly on mobile and desktop devices
+Deployment: Vercel
 
----
+Version Control: Git & GitHub
 
-## 🌿 Branching Strategy
+✨ Key Features
 
-* **main** – Production-ready branch (protected)
-* **develop** – Integration branch
-* **feature/*** – Feature development branches
+Real-time Truck Tracking – Displays waste collection trucks on an interactive map
 
-**Example Feature Branches:**
+Rewards System – Users earn points for recycling activities
 
-* feature/ui-design
-* feature/ci-cd-setup
-* feature/readme-docs
+Impact Dashboard – Shows monthly recycling contribution statistics
 
----
+Responsive Design – Optimized for both mobile and desktop screens
 
-## 🧑‍💻 Individual Contributions
+🌿 Branching Strategy
 
-### O.P.C Akalanka (Chamod) – Full-Stack Developer
+This project follows a simple Git branching strategy to support collaborative development.
 
-* Designed and implemented the full UI/UX (landing page and dashboard)
-* Integrated Leaflet.js map with custom truck icons and movement simulation
-* Implemented JavaScript logic for animations and user interactions
-* Created the initial CI workflow using GitHub Actions
+main – Production-ready branch (protected)
 
-### K.A. Shani Randika – DevOps Engineer
+develop – Integration and testing branch
 
-* Configured repository settings and branch protection rules
-* Managed CI/CD workflows and Vercel deployment
-* Maintained project documentation
-* Reviewed and approved pull requests before merging to the develop branch
+feature/* – Individual feature development branches
 
----
+Example Feature Branches:
 
-## ⚙️ Local Setup Instructions
+feature/ui-design
 
-### Prerequisites
+feature/ci-cd-setup
 
-* Git
-* Node.js (version 18 or higher)
-* Code editor (VS Code recommended)
+feature/readme-update
 
-### Installation Steps
+🧑‍💻 Individual Contributions
 
-```bash
-git clone https://github.com/chamod1000/Advanced-Git-Dev-ops-EchoLoop-.git
-cd Advanced-Git-Dev-ops-EchoLoop-
+O.P.C Akalanka (Chamod) – Full-Stack Developer
+
+Designed and developed the complete UI/UX including landing page and dashboard
+
+Integrated Leaflet.js map with custom truck icons and simulated movement
+
+Implemented JavaScript logic for animations and user interactions
+
+Created the initial Continuous Integration (CI) workflow using GitHub Actions
+
+K.A. Shani Randika – DevOps Engineer
+
+Configured repository settings and branch protection rules
+
+Managed CI/CD workflows and Vercel deployment
+
+Maintained and updated project documentation
+
+Reviewed and approved pull requests before merging into the develop branch
+
+⚙️ Local Setup Instructions
+
+Prerequisites
+
+Git
+
+Node.js (version 18 or higher)
+
+Code editor (VS Code recommended)
+
+Installation Steps
+
+git clone https://github.com/chamod1000/EchoLoopWebUI.git
+cd EchoLoopWebUI
 npm install
-```
 
-### Run the Application
+Run the Application
 
-* Open `index.html` directly in a browser
-  **OR**
-* Use **Live Server** in VS Code
+Open index.html directly in a web browserOR
 
----
+Use Live Server extension in VS Code
 
-## 🔄 CI/CD Pipeline
+🔄 CI/CD Pipeline
 
-### Continuous Integration (CI)
+Continuous Integration (CI)
 
-* Runs on every push and pull request
-* Installs dependencies and checks the build
+Triggered on every push and pull request
 
-### Continuous Deployment (CD)
+Installs dependencies and validates the build
 
-* Automatically deploys to Vercel
-* Triggered when changes are merged into the `main` branch
+Continuous Deployment (CD)
 
----
+Automatically deploys the application to Vercel
+
+Triggered when changes are merged into the main branch
+
+📚 Learning Outcomes
+
+Practical use of Git branching strategies
+
+Hands-on experience with GitHub Actions for CI/CD
+
+Automated deployment using Vercel
+
+Team collaboration using pull requests and reviews
 
 © 2026 EcoLoop Project – Advanced Git & DevOps Assignment
+
