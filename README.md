@@ -9,7 +9,7 @@
 ---
 
 ## 🚀 Live Demo
-🔗 **Explore the App:** [Click Here to View Live Site](https://advanced-git-dev-ops-echo-loop.vercel.app/)
+🔗 **Explore the App:** [Click Here to View Live Site](https://echo-loop-web-ui.vercel.app/)
 
 ---
 
