@@ -1,123 +1,62 @@
 # ♻️ EcoLoop – Sustainable Waste Management System
 
-EcoLoop is a smart waste management web application that connects households with local waste collectors. The system supports real-time truck tracking, a recycling rewards system, and an impact dashboard to promote environmental sustainability.
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)
+
+**EcoLoop** is a smart waste management platform designed to bridge the gap between households and waste collectors. By leveraging real-time tracking and gamification, EcoLoop promotes environmental sustainability and efficient waste disposal practices.
 
 ---
 
-## 📌 Project Information
-
-**Module:** Advanced Git & DevOps
-**Project Type:** Group Assignment
-**Year:** 2026
-
----
-
-## 👥 Group Members
-
-* **O.P.C Akalanka (Chamod)**
-* **Student ID: ITBIN-2313-0007**
-* **Role: Full-Stack Developer**
-
-* **K.A. Shani Randika**
-* **Student ID: ITBIN-2313-0089**
-* **Role: DevOps Engineer**
-
----
-
-## 🌍 Live Deployment
-
-**Live URL:**
-[EchoLoopWebUi.vercel.app](https://echo-loop-web-ui.vercel.app/)
-
----
-
-## 🛠️ Technologies Used
-
-* **Frontend:** HTML5, CSS3, JavaScript (ES6)
-* **Map Integration:** Leaflet.js with OpenStreetMap
-* **CI/CD:** GitHub Actions
-* **Deployment:** Vercel
-* **Version Control:** Git and GitHub
+## 🚀 Live Demo
+🔗 **Explore the App:** [Click Here to View Live Site](https://advanced-git-dev-ops-echo-loop.vercel.app/)
 
 ---
 
 ## ✨ Key Features
 
-* **Real-time Truck Tracking** – View waste collection trucks on an interactive map
-* **Rewards System** – Earn points for recycling activities
-* **Impact Dashboard** – Track monthly recycling contributions
-* **Responsive Design** – Works smoothly on mobile and desktop devices
+* **📍 Real-time Truck Tracking:** View the live location of garbage trucks on an interactive map using Leaflet.js.
+* **🏆 Recycling Rewards:** Earn points for disposing of waste correctly and redeem them for eco-friendly rewards.
+* **📊 Impact Dashboard:** Visualize your contribution to the environment with monthly recycling statistics.
+* **📱 Fully Responsive:** Seamless experience across mobile phones, tablets, and desktop computers.
 
 ---
 
-## 🌿 Branching Strategy
+## 🛠️ Technologies Used
 
-* **main** – Production-ready branch (protected)
-* **develop** – Integration branch
-* **feature/*** – Feature development branches
-
-**Example Feature Branches:**
-
-* feature/ui-design
-* feature/ci-cd-setup
-* feature/readme-docs
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Maps API:** Leaflet.js & OpenStreetMap
+* **Hosting:** Vercel
+* **Version Control:** Git & GitHub
 
 ---
 
-## 🧑‍💻 Individual Contributions
+## ⚙️ Installation & Local Setup
 
-### O.P.C Akalanka – Full-Stack Developer
+To run this project locally on your machine:
 
-* Designed and implemented the full UI/UX (landing page and dashboard)
-* Integrated Leaflet.js map with custom truck icons and movement simulation
-* Implemented JavaScript logic for animations and user interactions
-* Created the initial CI workflow using GitHub Actions
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/chamod1000/EchoLoopWebUI.git](https://github.com/chamod1000/EchoLoopWebUI.git)
+    ```
 
-### K.A. Shani Randika – DevOps Engineer
+2.  **Navigate to the project directory**
+    ```bash
+    cd EchoLoopWebUI
+    ```
 
-* Configured repository settings and branch protection rules
-* Managed CI/CD workflows and Vercel deployment
-* Maintained project documentation
-* Reviewed and approved pull requests before merging to the develop branch
-
----
-
-## ⚙️ Local Setup Instructions
-
-### Prerequisites
-
-* Git
-* Node.js (version 18 or higher)
-* Code editor (VS Code recommended)
-
-### Installation Steps
-
-```bash
-git clone https://github.com/chamod1000/Advanced-Git-Dev-ops-EchoLoop-.git
-cd Advanced-Git-Dev-ops-EchoLoop-
-npm install
-```
-
-### Run the Application
-
-* Open `index.html` directly in a browser
-  **OR**
-* Use **Live Server** in VS Code
+3.  **Run the project**
+    * Simply open the `index.html` file in your web browser.
+    * For a better experience, use the **Live Server** extension in VS Code.
 
 ---
 
-## 🔄 CI/CD Pipeline
+## 📄 License
 
-### Continuous Integration (CI)
-
-* Runs on every push and pull request
-* Installs dependencies and checks the build
-
-### Continuous Deployment (CD)
-
-* Automatically deploys to Vercel
-* Triggered when changes are merged into the `main` branch
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-© 2026 EcoLoop Project – Advanced Git & DevOps Assignment
+<p align="center">
+  &copy; 2026 EcoLoop Project. All Rights Reserved.
+</p>
